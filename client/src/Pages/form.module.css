@@ -1,0 +1,87 @@
+/* body {
+    background-color: #B3E5FC;
+    border-radius: 10px
+} */
+
+.card {
+    width: 45vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff
+}
+
+.stats {
+    background: #f2f5f8 !important;
+    color: #000 !important
+}
+
+.articles {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number1 {
+    font-weight: 500
+}
+
+.followers {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number2 {
+    font-weight: 500
+}
+
+.rating {
+    font-size: 10px;
+    color: #a1aab9
+}
+
+.number3 {
+    font-weight: 500
+}
+.formresp{
+    width:30vw;
+}
+.mail{
+    word-wrap: break-word; 
+}
+.flex{
+    display: flex;
+}
+@media (max-width:1000px) {
+    .formresp{
+        width:40vw;
+    }
+    .card{
+        width:60vw;
+    }
+}
+@media (max-width:800px) {
+    .formresp{
+        width:50vw;
+    }
+    .card{
+        width:80vw;
+    }
+    .flex{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) {
+    .formresp{
+        width:60vw;
+    }
+    .card{
+        width:90vw;
+    }
+}
+@media (max-width:500px) {
+    .formresp{
+        width:90vw;
+    }
+    .card{
+        width:95vw;
+    }
+}
